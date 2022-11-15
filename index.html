@@ -14,10 +14,10 @@
         <nav class="main_nav">
             <div class="logo"><img src="images/logo.PNG"></div>
             <div class="nav_container">
-                <div class="flexed_div"><a href="#">Home</a></div>
-                <div class="flexed_div"><a href="#">Recipes</a></div>
-                <div class="flexed_div"><a href="#">Favourites</a></div>
-                <div class="flexed_div"><a href="#">Newly Added Recipes</a></div>
+                <div class="flexed_div"><a href="#">Home</a><span>|</span></div>
+                <div class="flexed_div"><a href="#">Recipes</a><span>|</span></div>
+                <div class="flexed_div"><a href="#">Favourites</a><span>|</span></div>
+                <div class="flexed_div"><a href="#">Newly Added Recipes</a><span>|</span></div>
                 <div class="flexed_div"><a href="#">Veiw Catogries</a></div>
 
             </div>
@@ -33,23 +33,49 @@
         <div class="sub_image">
             <div class="overlay_image overlay_image_first">
                 <img class="sub_image_first" src="images/peanut-butter-pie.webp" alt="">
-                <div>
-
-                </div>
+                <a href="#">
+                    <div class="overlay_desc">
+                        <span class="featured">Featured</span>
+                        <div>
+                            <div class="timing">&#128340;&nbsp;2hr 10mins</div>
+                            <div class="dish_name">Peanut Butter Pie</div>
+                        </div>
+                    </div>
+                </a>
             </div>
             <div class="overlay_image overlay_image_second">
                 <img class="sub_image_second" src="images/hot-pocket.jpg" alt="">
+                <a href="#">
+                    <div class="overlay_desc">
+                        <span class="featured">Featured</span>
+                        <div>
+                            <div class="timing">&#128340;&nbsp;1hr 20mins</div>
+                            <div class="dish_name">Hot Cheese Pockets</div>
+                        </div>
+                    </div>
+                </a>
             </div>
             <div class="overlay_image overlay_image_third">
                 <img class="sub_image_third" src="images/bagel-pizza.jpg" alt="">
+                <a href="#">
+                    <div class="overlay_desc">
+                        <span class="featured">Featured</span>
+                        <div>
+                            <div class="timing">&#128340;&nbsp;0hr 30mins</div>
+                            <div class="dish_name">Bagel Pizza</div>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
 
     </header>
-    <section>
+    <section class="category_section">
 
         <div class="categories">
-            <h1>Most Popular Categories</h1>
+            <h2>Most Popular Categories</h2>
+            <div class="categories_subhead">Be sure not to miss out the recipes of these most popular categories. Enjoy
+                trying them out!</div>
             <div class="image_category">
                 <div class="boxes box1">
                     <div class="overlay_box">
@@ -90,6 +116,41 @@
             </div>
         </div>
     </section>
+    <section class="subscription">
+        <div class="main_image">
+            <img src="images/creme-caramel-custard.webp" alt="shrimp">
+            <div class="main_caption newsletter_box">
+                <h1>Stay Tuned</h1>
+                <div>Subscribe for latest recipe videos and updates</div>
+                <form>
+                    <input class="input_box" type="text" placeholder="Enter your name">
+                    <input class="input_box" type="text" placeholder="Enter your email-Id">
+                    <button class="subscribe_button">Subscribe Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer_categories"><b>Categories</b>
+                <ul>
+                    <li>Breakfast</li>
+                    <li>Salad</li>
+                    <li>Appetizer</li>
+                    <li>Soup</li>
+                    <li>Dessert</li>
+                    <li>Main Dish</li>
+                </ul>
+            </div>
+            <div class="footer_categories"><b>Favourites Recipe</b></div>
+            <div class="footer_categories"><b>Recently Added</b></div>
+            <div class="footer_categories"><b>Most Popular Dishes</b></div>
+
+        </div>
+        <hr>
+        <div class="copyright">&copy;Samiksha</div>
+    </footer>
+
 </body>
 
 </html>
