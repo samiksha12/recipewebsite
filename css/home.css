@@ -1,9 +1,10 @@
 * {
   margin: 0;
 }
-body {
+body,html {
   background-color: #f1f1ef;
   font-family: sans-serif;
+  overscroll-behaviour:none;
 }
 header {
   margin: 0;
