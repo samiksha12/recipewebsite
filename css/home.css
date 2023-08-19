@@ -114,6 +114,7 @@ header {
 }
 .overlay_image_first {
   height: 342px;
+  width:338px;
   border-radius: 3% 0 0 3%;
 }
 .sub_image_first {
@@ -124,6 +125,7 @@ header {
 }
 .overlay_image_second {
   height: 358px;
+  width:338px;
   border-radius: 3%;
 }
 .sub_image_second {
@@ -134,6 +136,7 @@ header {
 }
 .overlay_image_third {
   height: 342px;
+  width:338px;
   border-radius: 0 3% 3% 0;
 }
 .sub_image_third {
